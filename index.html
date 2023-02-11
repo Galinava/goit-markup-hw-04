@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="navigation">
+          <a href="" class="logo">Web<span class="header-logo">Studio</span></a>
+          <ul class="header-list list">
+            <li class="header-item">
+              <a href="" class="header-link current">Studio</a>
+            </li>
+            <li class="header-item">
+              <a href="./portfolio.html" class="header-link">Portfolio</a>
+            </li>
+            <li class="header-item">
+              <a href="" class="header-link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-connect-list list">
+          <li class="header-item-contact">
+            <a class="header-link-contact" href="mailto:info@devstudio.com">
+              <!-- <svg class="icon" width="16" height="12">
+                <use href="./images/icons.svg#icon-envelope"></use>
+              </svg> -->
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="header-item-contact icon-tel">
+            <a class="header-link-contact" href="tel:+11(000)111-11-11">
+              <!-- <svg class="icon" width="10" height="16">
+                <use href="./images/icons.svg#icon-smartphone"></use>
+              </svg> -->
+              +11 (000) 111-11-11
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="line"></div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-container">
+          <h1 class="hero-title">
+            Effective Solutions <br />
+            for Your Business
+          </h1>
+          <div class="hero-point">
+            <button type="button" class="hero-btn" data-modal-open>
+              Order Service
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <h2 class="visually-hidden">Our features</h2>
+        </div>
+      </section>
+
+      <section class="about section">
+        <div class="container">
+          <ul class="about-list list">
+            <li class="about-item icon-antenna">
+              <h3 class="about-title">Strategy</h3>
+              <p class="about-pre-title pre-title">
+                Our goal is to identify the business<br />
+                problem to walk away with the <br />
+                perfect and creative solution.
+              </p>
+            </li>
+
+            <li class="about-item icon-clock">
+              <h3 class="about-title">Punctuality</h3>
+              <p class="about-pre-title pre-title">
+                Bring the key message to the <br />
+                brand's audience for the best price <br />
+                within the shortest possible time.
+              </p>
+            </li>
+
+            <li class="about-item icon-diagram">
+              <h3 class="about-title">Diligence</h3>
+              <p class="about-pre-title pre-title">
+                Research and confirm brands that <br />
+                present the strongest digital growth <br />
+                opportunities and minimize risk.
+              </p>
+            </li>
+
+            <li class="about-item icon-astronaut">
+              <h3 class="about-title">Technologies</h3>
+              <p class="about-pre-title pre-title">
+                Design practice focused on digital <br />
+                experiences. We bring forth a deep <br />
+                passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="reasons section">
+        <div class="container">
+          <h2 class="reasons-title section-title">What are we doing</h2>
+          <ul class="reasons-list list">
+            <li class="reasons-item">
+              <img
+                src="./images/about-imag-1.jpg"
+                alt="revenue overview"
+                width="360"
+                height="300"
+                class="reasons-img"
+              />
+              <!-- <p class="reasons-top-text">Десктопные приложения</p> -->
+            </li>
+
+            <li class="reasons-item">
+              <img
+                src="./images/about-imag-2.jpg"
+                alt="your group online"
+                width="360"
+                height="300"
+                class="reasons-img"
+              />
+              <!-- <p class="reasons-top-text">Мобильные приложения</p> -->
+            </li>
+
+            <li class="reasons-item">
+              <img
+                src="./images/about-imag-3.jpg"
+                alt="articles recommended"
+                width="360"
+                height="300"
+                class="reasons-img"
+              />
+              <!-- <p class="reasons-top-text">Дизайнерские решения</p> -->
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="specialist">
+        <div class="container section-specialist">
+          <h2 class="specialist-title">Our Team</h2>
+          <ul class="list specialist-list">
+            <li class="specialist-item">
+              <img
+                src="./images/specialist-img-1.jpg"
+                alt="programming specialist 1"
+                width="264"
+                height="260"
+                class="specialist-item-img"
+              />
+              <div class="specialist-item-content">
+                <h3 class="specialist-item-title">Mark Guerrero</h3>
+                <p class="specialist-item-text">Product Designer</p>
+                <ul class="specialist-social-list list">
+                  <li class="specialist-social-item">
+                    <a href="" class="specialist-social-link">
+                      <svg
+                        class="specialist-social-icon"
+                        width="16"
+                        height="16"
+                      >
+                        <use href="./images/icons.svg#icon-instagram-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="specialist-social-item">
+                    <a href="" class="specialist-social-link">
+                      <svg
+                        class="specialist-social-icon"
+                        width="16"
+                        height="16"
+                      >
+                        <use href="./images/icons.svg#icon-twitter-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="specialist-social-item">
+                    <a href="" class="specialist-social-link">
+                      <svg
+                        class="specialist-social-icon"
+                        width="16"
+                        height="16"
+                      >
+                        <use href="./images/icons.svg#icon-facebook-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="specialist-social-item">
+                    <a href="" class="specialist-social-link">
+                      <svg
+                        class="specialist-social-icon"
+                        width="16"
+                        height="16"
+                      >
+                        <use href="./images/icons.svg#icon-linkedin-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="specialist-item">
+              <img
+                src="./images/specialist-img-2.jpg"
+                alt="programming specialist 2"
+                width="264"
+                height="260"
+                class="specialist-item-img"
+              />
+              <div class="specialist-item-content">
+                <h3 class="specialist-item-title">Tom Ford</h3>
+                <p class="specialist-item-text">Frontend Developer</p>
+                <ul class="specialist-social-list list">
+                  <li class="specialist-social-item">
+                    <a href="" class="specialist-social-link">
+                      <svg
+                        class="specialist-social-icon"
+                        width="16"
+                        height="16"
+                      >
+                        <use href="./images/icons.svg#icon-instagram-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="specialist-social-item">
+                    <a href="" class="specialist-social-link">
+                      <svg
+                        class="specialist-social-icon"
+                        width="16"
+                        height="16"
+                      >
+                        <use href="./images/icons.svg#icon-twitter-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="specialist-social-item">
+                    <a href="" class="specialist-social-link">
+                      <svg
+                        class="specialist-social-icon"
+                        width="16"
+                        height="16"
+                      >
+                        <use href="./images/icons.svg#icon-facebook-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="specialist-social-item">
+                    <a href="" class="specialist-social-link">
+                      <svg
+                        class="specialist-social-icon"
+                        width="16"
+                        height="16"
+                      >
+                        <use href="./images/icons.svg#icon-linkedin-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="specialist-item">
+              <img
+                src="./images/specialist-img-3.jpg"
+                alt="programming specialist 3"
+                width="264"
+                height="260"
+                class="specialist-item-img"
+              />
+              <div class="specialist-item-content">
+                <h3 class="specialist-item-title">Camila Garcia</h3>
+                <p class="specialist-item-text" lang="en">Marketing</p>
+                <ul class="specialist-social-list list">
+                  <li class="specialist-social-item">
+                    <a href="" class="specialist-social-link">
+                      <svg
+                        class="specialist-social-icon"
+                        width="16"
+                        height="16"
+                      >
+                        <use href="./images/icons.svg#icon-instagram-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="specialist-social-item">
+                    <a href="" class="specialist-social-link">
+                      <svg
+                        class="specialist-social-icon"
+                        width="16"
+                        height="16"
+                      >
+                        <use href="./images/icons.svg#icon-twitter-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="specialist-social-item">
+                    <a href="" class="specialist-social-link">
+                      <svg
+                        class="specialist-social-icon"
+                        width="16"
+                        height="16"
+                      >
+                        <use href="./images/icons.svg#icon-facebook-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="specialist-social-item">
+                    <a href="" class="specialist-social-link">
+                      <svg
+                        class="specialist-social-icon"
+                        width="16"
+                        height="16"
+                      >
+                        <use href="./images/icons.svg#icon-linkedin-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="specialist-item">
+              <img
+                src="./images/specialist-img-4.jpg"
+                alt="programming specialist 4"
+                width="264"
+                height="260"
+                class="specialist-item-img"
+              />
+              <div class="specialist-item-content">
+                <h3 class="specialist-item-title">Daniel Wilson</h3>
+                <p class="specialist-item-text" lang="en">UI Designer</p>
+                <ul class="specialist-social-list list">
+                  <li class="specialist-social-item">
+                    <a href="" class="specialist-social-link">
+                      <svg
+                        class="specialist-social-icon"
+                        width="16"
+                        height="16"
+                      >
+                        <use href="./images/icons.svg#icon-instagram-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="specialist-social-item">
+                    <a href="" class="specialist-social-link">
+                      <svg
+                        class="specialist-social-icon"
+                        width="16"
+                        height="16"
+                      >
+                        <use href="./images/icons.svg#icon-twitter-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="specialist-social-item">
+                    <a href="" class="specialist-social-link">
+                      <svg
+                        class="specialist-social-icon"
+                        width="16"
+                        height="16"
+                      >
+                        <use href="./images/icons.svg#icon-facebook-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="specialist-social-item">
+                    <a href="" class="specialist-social-link">
+                      <svg
+                        class="specialist-social-icon"
+                        width="16"
+                        height="16"
+                      >
+                        <use href="./images/icons.svg#icon-linkedin-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <section class="regular">
+      <div class="container regular-customers-container">
+        <h2 class="regular-customers-title">Customers</h2>
+        <ul class="regular-customers-list list">
+          <li class="regular-customers-item">
+            <a href="" class="regular-customers-link">
+              <svg class="regular-customers-icon" width="104" height="56">
+                <use href="./images/icons.svg#icon-Logo-1"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="regular-customers-item">
+            <a href="" class="regular-customers-link">
+              <svg class="regular-customers-icon" width="104" height="56">
+                <use href="./images/icons.svg#icon-Logo-2"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="regular-customers-item">
+            <a href="" class="regular-customers-link">
+              <svg class="regular-customers-icon" width="104" height="56">
+                <use href="./images/icons.svg#icon-Logo-3"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="regular-customers-item">
+            <a href="" class="regular-customers-link">
+              <svg class="regular-customers-icon" width="104" height="56">
+                <use href="./images/icons.svg#icon-Logo-4"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="regular-customers-item">
+            <a href="" class="regular-customers-link">
+              <svg class="regular-customers-icon" width="104" height="56">
+                <use href="./images/icons.svg#icon-Logo-5"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="regular-customers-item">
+            <a href="" class="regular-customers-link">
+              <svg class="regular-customers-icon" width="104" height="56">
+                <use href="./images/icons.svg#icon-Logo-6"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <footer class="cellar">
+      <div class="container cellar-container">
+        <div>
+          <a href="" class="cellar-logo"
+            >Web<span class="logotip-ft">Studio</span></a
+          >
+          <p class="cellar-text">
+            Increase the flow of customers and<br />
+            sales for your business with digital <br />
+            marketing & growth solutions.
+          </p>
+          <!-- <address class="adds">
+            <ul class="cellar-list list">
+              <li class="cellar-item">
+                <a
+                  href="https://goo.gl/maps/NyALyPZnbUgnqSuq6"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  class="cellar-maps"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="cellar-item">
+                <a href="mailto:info@example.com" class="cellar-contact"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="cellar-item">
+                <a href="tel:+380991111111" class="cellar-contact"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address> -->
+        </div>
+        <div class="cellar-social">
+          <p class="cellar-item-text">Social media</p>
+          <ul class="cellar-social-list list">
+            <li class="cellar-social-item">
+              <a href="" class="cellar-social-link">
+                <svg class="cellar-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="cellar-social-item">
+              <a href="" class="cellar-social-link">
+                <svg class="cellar-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="cellar-social-item">
+              <a href="" class="cellar-social-link">
+                <svg class="cellar-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="cellar-social-item">
+              <a href="" class="cellar-social-link">
+                <svg class="cellar-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin-2"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-close-btn" data-modal-close>
+          <svg class="modal-button" width="10" height="10">
+            <use href="./images/icons.svg#close-black"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
+  </body>
+</html>
